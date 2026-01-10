@@ -1,3 +1,14 @@
+# Python environment
 venv/
+.venv/
+env/
+
+# Caches
 .cache/
+__pycache__/
+
+# Large data and logs
 dataset_rft_json/
+wandb/
+*.jsonl
+*.log
