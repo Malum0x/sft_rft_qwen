@@ -12,3 +12,4 @@ dataset_rft_json/
 wandb/
 *.jsonl
 *.log
+**/qwen_sft_results/
