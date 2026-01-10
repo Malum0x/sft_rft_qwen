@@ -1,5 +1,7 @@
 in progress (...) 
+Latest update: 
 
+Implemented QLoRa using peft and bitsandbytes to enable SFT on a single RTX 4090. Training is currently active, tests are TBC. 
 
 
 dataset: 
