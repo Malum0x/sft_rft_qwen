@@ -12,4 +12,13 @@ dataset_rft_json/
 wandb/
 *.jsonl
 *.log
-**/qwen_sft_results/
+dataset_sft/
+final_qwen_model/
+
+qwen_sft_results/ 
+datasets_sft/qwen_sft_results/
+*.safetensors
+*.pt
+*.pth
+*.bin
+checkpoint-*/
