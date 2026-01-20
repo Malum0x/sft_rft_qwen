@@ -7,7 +7,10 @@ Model is exhibiting Over-Generalization, it has incorrectly prioritized 'async' 
 
 <img width="1605" height="753" alt="image" src="https://github.com/user-attachments/assets/e8f8cf57-7d3c-4a47-b69d-8325060a5e0e" />
 This training was fast, used on config: 
-""" 
+
+
+
+```python
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -57,7 +60,7 @@ trainer = SFTTrainer(
 
 trainer.train()
 trainer.save_model("./final_qwen_model")
-"""
+```
 
 
 TBC...
